@@ -6,5 +6,5 @@ document.querySelectorAll('.colorArea .color').forEach( item =>{
 
 function colorClickEvent(e) {
     let color = e.target.getAttribute('data-color'); // BUSCANDO COR CLICADA
-    console.log(`COR ${color} CLICADA`)
+    currentColor = color;
 }
