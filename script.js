@@ -10,6 +10,13 @@ document.querySelectorAll('.colorArea .color').forEach( item =>{
     item.addEventListener('click', colorClickEvent);
 });
 
+/**
+ * PASSO A PASSO PARA DESENHAR NO CANVAS 
+ * - Quando o mouse CLICAR/BAIXAR, ative o modo desenho
+ * - Quando o mouse se MOVER, se o modo desenho estiver ativado, desenhe
+ * Só desenha quando estas duas codnições estiverem satisfeitas
+ */
+
 
 
 //FUNCTIONS
