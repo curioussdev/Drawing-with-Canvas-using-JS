@@ -1,9 +1,18 @@
+// INICIAL DATA
 let currentColor = '#000000';
 
+let screen = document.querySelector('#tela');
+let context = screen.getContext('2d');
+
+
+// EVENTS
 document.querySelectorAll('.colorArea .color').forEach( item =>{
     item.addEventListener('click', colorClickEvent);
 });
 
+
+
+//FUNCTIONS
 function colorClickEvent(e) {
     let color = e.target.getAttribute('data-color'); // BUSCANDO COR CLICADA
     currentColor = color;
